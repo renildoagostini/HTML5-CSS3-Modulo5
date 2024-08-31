@@ -1,0 +1,41 @@
+div.container{
+    background-color: lightsalmon;
+    display: flex;
+    flex-grow: row wrap;
+}
+
+div.item{
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;    
+}
+
+div#i1{
+    order: 0;
+}
+
+div#i2{
+    order: 0;
+}
+
+div#i3{
+    order: -2;
+}
+
+div#i4{
+    order: 4;
+}
+
+div#i5{
+    order: 8;
+}
+
+div#i6{
+    order: -3;
+}
+
+div#i7{
+    order: 8;
+}
+
